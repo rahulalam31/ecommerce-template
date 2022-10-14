@@ -1,0 +1,91 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin flex-column {
+  flex-direction: column;
+  display: flex;
+}
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+@mixin total-box {
+  width: 100%;
+  height: 100%;
+}
+@mixin total {
+  width: 100%;
+  height: 100%;
+}
+
+@mixin green-button-hover {
+  background: #fff;
+  border: 1px solid #47c830;
+  color: #444 !important;
+}
+//grid
+@mixin gird-center {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.active-pop-up {
+  display: flex;
+}
+.iiz__img {
+  height: 100% !important;
+  width: 100% !important;
+}
+.image-zoomer-container {
+  height: 100%;
+}
+.vs--searchable .vs__dropdown-toggle {
+  border-radius: 34px !important;
+  padding: 3px 8px;
+}
+.vs__selected {
+  font-size: 0.875rem;
+}
+
+.vs__actions {
+  padding: 0;
+  column-gap: 5px;
+}
+.vs__clear {
+  margin: 0;
+}
+.vs__search {
+  visibility: hidden;
+}
+.vs__dropdown-option {
+  font-size: 0.875rem;
+}
+
+/** pagination of products page */
+.page-item.active .page-link {
+  background: #5c77ec;
+  margin-right: 3px;
+}
+.b-pagination-pills .page-item .page-link {
+  padding: 0.75rem 1rem;
+  margin: 0 3px;
+}
+
+.over-flow-none {
+  overflow: hidden;
+}
+
+.active-modal {
+  display: flex;
+  animation: activeModal 0.2s ease-in-out forwards;
+}
+@keyframes activeModal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

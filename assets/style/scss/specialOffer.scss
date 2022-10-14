@@ -1,0 +1,15 @@
+.special-offer-section {
+  max-width: 2100px;
+  margin: 0 auto;
+}
+
+@include breakpoint(767px) {
+  .special-offer-section {
+    row-gap: 55px;
+  }
+}
+@include sm {
+  .special-offer-section {
+    row-gap: 34px;
+  }
+}

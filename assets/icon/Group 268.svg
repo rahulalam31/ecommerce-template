@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="113" height="113" viewBox="0 0 113 113">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.844" x2="0.5" y2="-0.438" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8e8d"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.502"/>
+    </linearGradient>
+    <filter id="Rectangle_127" x="0" y="0" width="113" height="113" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#ff0909" flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_268" data-name="Group 268" transform="translate(-706.5 -1512.5)">
+    <g transform="matrix(1, 0, 0, 1, 706.5, 1512.5)" filter="url(#Rectangle_127)">
+      <rect id="Rectangle_127-2" data-name="Rectangle 127" width="68" height="68" rx="22" transform="translate(22.5 12.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="smart-watch" transform="translate(751.866 1538.667)">
+      <path id="Path_244" data-name="Path 244" d="M47.086,128H33.968A1.968,1.968,0,0,0,32,129.968V145.71a1.968,1.968,0,0,0,1.968,1.968H47.086a1.968,1.968,0,0,0,1.968-1.968V129.968A1.968,1.968,0,0,0,47.086,128Zm.656,17.71a.656.656,0,0,1-.656.656H33.968a.656.656,0,0,1-.656-.656V129.968a.656.656,0,0,1,.656-.656H47.086a.656.656,0,0,1,.656.656Zm0,0" transform="translate(-29.376 -117.505)" fill="#fff"/>
+      <path id="Path_245" data-name="Path 245" d="M23.613,19.022a.656.656,0,0,0,.656-.656V13.774a.656.656,0,0,0-.656-.656H22.3V11.151a3.279,3.279,0,0,0-2.144-3.065.673.673,0,0,0-.187-.146c-.022-.011-2.261-1.173-2.261-2.693V.656A.656.656,0,0,0,17.054,0H5.247a.656.656,0,0,0-.656.656V5.247c0,1.273-1.632,2.376-2.262,2.693a.652.652,0,0,0-.184.145A3.28,3.28,0,0,0,0,11.151V29.516a3.279,3.279,0,0,0,2.144,3.065.673.673,0,0,0,.187.146c.022.011,2.261,1.173,2.261,2.693v4.591a.656.656,0,0,0,.656.656H17.054a.656.656,0,0,0,.656-.656V35.42c0-1.273,1.632-2.376,2.262-2.693a.652.652,0,0,0,.184-.145A3.28,3.28,0,0,0,22.3,29.516V27.549h1.312a.656.656,0,0,0,.656-.656V22.3a.656.656,0,0,0-.656-.656H22.3V19.022Zm-.656-4.591v3.28H22.3V14.43ZM5.9,5.247V1.312H16.4V5.247a3.753,3.753,0,0,0,1.275,2.624H4.628A3.753,3.753,0,0,0,5.9,5.247ZM16.4,35.42v3.936H5.9V35.42A3.753,3.753,0,0,0,4.628,32.8H17.673A3.753,3.753,0,0,0,16.4,35.42Zm4.591-5.9a1.968,1.968,0,0,1-1.968,1.968H3.28a1.968,1.968,0,0,1-1.968-1.968V11.151A1.968,1.968,0,0,1,3.28,9.183H19.022a1.968,1.968,0,0,1,1.968,1.968Zm1.968-6.559v3.28H22.3v-3.28Zm0,0" fill="#fff"/>
+    </g>
+  </g>
+</svg>

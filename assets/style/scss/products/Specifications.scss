@@ -1,0 +1,102 @@
+.specifications-section {
+  .specifications {
+    background: #fafafa;
+    width: 20%;
+    height: auto;
+    padding-right: 18px;
+    font-size: 0.875rem;
+  }
+  .specifications-value {
+    background: #fafafa;
+    width: 78%;
+    height: auto;
+    padding-right: 18px;
+    font-size: 0.875rem;
+    flex-grow: 1;
+    padding: 21px 18px 21px 0;
+  }
+
+  .technical-specifications {
+    margin-top: 34px;
+    margin-right: 13px;
+    .title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: #6c6e78;
+      margin-bottom: 13px;
+    }
+    .info {
+      font-size: 0.875rem;
+      color: #b1b0b2;
+    }
+  }
+  .specifications-container {
+    width: 97%;
+    margin-right: 10px;
+  }
+  .processor,
+  .memory {
+    .header {
+      width: 100px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      column-gap: 8px;
+      padding-right: 5px;
+      font-size: 1rem;
+      margin-bottom: 21px;
+      margin-top: 34px;
+      &::before {
+        content: "\2023";
+        transform: rotate(180deg);
+        font-size: 2.25rem;
+        color: #0aa595;
+      }
+    }
+    .content {
+      column-gap: 18px;
+      margin-top: 8px;
+    }
+  }
+  .memory {
+    margin-top: 55px;
+  }
+}
+
+@include md {
+  .specifications-section .specifications,
+  .specifications-section .specifications-value {
+    font-size: 0.75rem;
+    height: 55px;
+  }
+  .specifications-section .specifications {
+    width: 28%;
+  }
+  .specifications-section .specifications-value {
+    width: 70%;
+  }
+  .specifications-section .technical-specifications .title {
+    font-size: 1rem;
+  }
+}
+@include sm {
+  .specifications-section .specifications-container {
+    width: 97%;
+    margin: 0 auto;
+  }
+  .product-detail-and-seller-info .user-reaction .stars {
+    margin-left: 3px;
+  }
+  .specifications-section .specifications,
+  .specifications-section .specifications-value {
+    font-size: 0.625rem;
+    height: 50px;
+    padding-right: 8px;
+  }
+  .specifications-section .specifications {
+    width: 28%;
+  }
+  .specifications-section .specifications-value {
+    width: 60%;
+  }
+}

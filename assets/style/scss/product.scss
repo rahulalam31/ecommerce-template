@@ -1,0 +1,120 @@
+//header
+.product {
+  margin: 0 auto;
+}
+.product-id {
+  width: 100%;
+  .product-number {
+    font-size: 1.125rem;
+    padding: 21px;
+    color: $fifth-color;
+  }
+}
+.header {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+.container {
+  max-width: 2100px;
+  padding: 0;
+}
+
+.nav-links {
+  margin-top: 1rem;
+  margin-right: 21px;
+  overflow: hidden;
+  .navs {
+    padding-left: 21px !important;
+    display: inline-flex;
+    column-gap: 8px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      width: 0;
+      background: transparent;
+    }
+  }
+  .nav {
+    flex-shrink: 0;
+    position: relative;
+    color: $fifth-color;
+
+    a {
+      transition: all 0.2s;
+    }
+    a:hover {
+      color: $red-hover !important;
+    }
+    &::before {
+      content: "/";
+      padding-left: 8px;
+    }
+    &:first-child::before {
+      display: none;
+    }
+  }
+}
+
+//comments and Specifications nav and tabs
+
+.comments-and-Specifications-nav {
+  height: 75px;
+  background: #f1f5f8;
+  .Specifications-tab,
+  .comments-tab {
+    height: 100%;
+    cursor: pointer;
+    padding: 0 21px;
+    column-gap: 5px;
+    position: relative;
+    span {
+      color: $fifth-color;
+      font-weight: 500;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 5px;
+      background: #38489f;
+      display: none;
+    }
+  }
+
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .activeNav {
+    background: #fff;
+    &::before {
+      display: block;
+    }
+  }
+}
+
+/** media query **/
+@include sm {
+  .nav-links .nav a {
+    font-size: 0.725rem !important;
+  }
+  .comments-and-Specifications-nav .Specifications-tab span,
+  .comments-and-Specifications-nav .comments-tab span {
+    color: #a1a1a1;
+    font-weight: 500;
+    font-size: 0.875rem;
+  }
+}
+
+@include breakpoint(654px) {
+  .nav-links .navs {
+    margin: 0 0;
+  }
+} ;

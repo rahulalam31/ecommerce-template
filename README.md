@@ -3,7 +3,7 @@
  
 An e-commerce store, built with vue and nuxt.includes filters , product photos gallery, mega menu and so many other features
 
-Compiles and hot-reloads for development
+Compiles and hot-reloads for development:
 
 npm run dev
 
